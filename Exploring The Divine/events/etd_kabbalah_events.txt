@@ -1,0 +1,26 @@
+﻿namespace = etd_kabbalah_events
+
+# Study Kabbalah Event
+etd_kabbalah_events.1 = {
+	type = character_event
+
+	title = etd_kabbalah_events.1_title
+	desc = etd_kabbalah_events.1_desc
+
+	theme = learning_theology_focus
+
+	lower_left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {
+		name = etd_kabbalah_events.1_accept
+		add_trait = kabbalist
+	}
+
+	option = {
+		name = etd_kabbalah_events.1_reject
+		add_piety = 500
+	}
+}
