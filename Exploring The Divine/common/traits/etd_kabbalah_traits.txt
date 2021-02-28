@@ -1,0 +1,26 @@
+﻿kabbalist = {
+	index = 1370
+	
+	minimum_age = 16
+	
+	learning_per_piety_level = 10
+	monthly_learning_lifestyle_xp_gain_mult = 0.25
+	same_faith_opinion = 25
+	clergy_opinion = 25
+
+	ruler_designer_cost = 200
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+
+				desc = trait_kabbalist_desc
+			}
+
+			desc = trait_kabbalist_character_desc
+		}
+	}
+}
