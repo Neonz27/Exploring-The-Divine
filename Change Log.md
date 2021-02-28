@@ -7,3 +7,6 @@
 
 **0.1.2**
 * > Added the decision to trigger the study Kabbalah event.
+
+**0.1.3**
+* > Added localization for everything currently in the mod.

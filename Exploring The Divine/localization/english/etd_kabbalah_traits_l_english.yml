@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_kabbalist:0 "Kabbalist"
+ trait_kabbalist_desc:0 "This character practices the mystical tradition of Kabbalah."
+ trait_kabbalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] practices the mystical tradition of Kabbalah."
