@@ -12,6 +12,11 @@
 		NOT = {
 			has_trait = kabbalist
 		}
+		
+		OR = {
+			religion = religion:judaism_religion
+			religion = religion:christianity_religion
+		}
 	}
 
 	is_valid = {

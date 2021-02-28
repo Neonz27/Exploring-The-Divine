@@ -10,3 +10,6 @@
 
 **0.1.3**
 * > Added localization for everything currently in the mod.
+
+**0.1.4**
+* > Made Kabbalah exclusive to the religions of Judaism & Christianity.
