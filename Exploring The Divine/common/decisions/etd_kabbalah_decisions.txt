@@ -1,0 +1,88 @@
+﻿etd_study_kabbalah_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	title = etd_study_kabbalah_decision_title
+	selection_tooltip = etd_study_kabbalah_decision_tooltip
+	desc = etd_study_kabbalah_decision_desc
+	confirm_text = etd_study_kabbalah_decision_confirm 
+
+	is_shown = {
+		age >= 16
+		
+		NOT = {
+			has_trait = kabbalist
+		}
+	}
+
+	is_valid = {
+		learning >= 15
+	}
+
+	cost = {
+		piety = 500
+	}
+
+	effect = {
+		trigger_event = etd_kabbalah_events.1
+	}
+	
+	ai_check_frequency = 12
+
+	ai_potential = {
+		monthly_character_piety > 2
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 66
+			has_trait = mystic
+		}
+		
+		modifier = {
+			add = 33
+			has_trait = zealot
+		}
+
+		modifier = {
+			add = 33
+			has_trait = celibate
+		}
+
+		modifier = {
+			add = 15
+			has_trait = chaste
+		}
+
+		modifier = {
+			add = 15
+			has_trait = temperate
+		}
+
+		modifier = {
+			add = 15
+			has_trait = charitable
+		}
+
+		modifier = {
+			add = 15
+			has_trait = diligent
+		}
+
+		modifier = {
+			add = 15
+			has_trait = patient
+		}
+
+		modifier = {
+			add = 15
+			has_trait = kind
+		}
+
+		modifier = {
+			add = 15
+			has_trait = humble
+		}
+	}
+}

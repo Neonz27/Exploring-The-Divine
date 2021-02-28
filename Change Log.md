@@ -4,3 +4,6 @@
 
 **0.1.1**
 * > Added the event to study Kabbalah.
+
+**0.1.2**
+* > Added the decision to trigger the study Kabbalah event.
