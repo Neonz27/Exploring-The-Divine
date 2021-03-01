@@ -1,4 +1,8 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.6**
+* > Made the icon for the Cultist trait dynamically change based on your character's religion.
+* > Made it impossible to activate all currently implemented decisions while imprisoned.
+
 **0.2.5**
 * > Added the Cultist trait.
 

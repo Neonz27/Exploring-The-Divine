@@ -31,6 +31,332 @@ cultist = {
 	clergy_opinion = -25
 	same_faith_opinion = 75
 	opinion_of_different_faith_liege = 75
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						exists = this
+					}
+					
+					desc = cultist.dds
+				}
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = akom_religion
+					}
+				}
+				
+				desc = cultist_akom.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = baltic_religion
+					}
+				}
+				
+				desc = cultist_baltic.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = bon_religion
+					}
+				}
+				
+				desc = cultist_bon.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = buddhism_religion
+					}
+				}
+				
+				desc = cultist_buddhism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = christianity_religion
+					}
+				}
+				
+				desc = cultist_christianity.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = donyipoloism_religion
+					}
+				}
+				
+				desc = cultist_donyipoloism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = dualism_religion
+					}
+				}
+				
+				desc = cultist_dualism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = finno_ugric_religion
+					}
+				}
+				
+				desc = cultist_finno_ugric.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = germanic_religion
+					}
+				}
+				
+				desc = cultist_germanic.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = hellenism_religion
+					}
+				}
+				
+				desc = cultist_hellenism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = hinduism_religion
+					}
+				}
+				
+				desc = cultist_hinduism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = islam_religion
+					}
+				}
+				
+				desc = cultist_islam.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = jainism_religion
+					}
+				}
+				
+				desc = cultist_jainism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = judaism_religion
+					}
+				}
+				
+				desc = cultist_judaism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = kushitism_religion
+					}
+				}
+				
+				desc = cultist_kushitism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = magyar_religion
+					}
+				}
+				
+				desc = cultist_magyarism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = mundhum_religion
+					}
+				}
+				
+				desc = cultist_mundhumism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = paganism_religion
+					}
+				}
+				
+				desc = cultist_paganism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = qiangic_religion
+					}
+				}
+				
+				desc = cultist_qiangic.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = siberian_religion
+					}
+				}
+				
+				desc = cultist_siberian.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = slavic_religion
+					}
+				}
+				
+				desc = cultist_slavic.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = taoism_religion
+					}
+				}
+				
+				desc = cultist_taoism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = tengrism_religion
+					}
+				}
+				
+				desc = cultist_tengrism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = waaqism_religion
+					}
+				}
+				
+				desc = cultist_waaqism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = west_african_religion
+					}
+				}
+				
+				desc = cultist_west_african.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = west_african_bori_religion
+					}
+				}
+				
+				desc = cultist_west_african_bori.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = west_african_orisha_religion
+					}
+				}
+				
+				desc = cultist_west_african_orisha.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = west_african_roog_religion
+					}
+				}
+				
+				desc = cultist_west_african_roog.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = yazidi_religion
+					}
+				}
+				
+				desc = cultist_yazidism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = zoroastrianism_religion
+					}
+				}
+				
+				desc = cultist_zoroastrianism.dds
+			}
+			
+			triggered_desc = {
+				trigger = {
+					faith = {
+						religion_tag = zunism_religion
+					}
+				}
+				
+				desc = cultist_zunism.dds
+			}
+			
+			desc = cultist.dds
+		}
+	}
 
 	desc = {
 		first_valid = {

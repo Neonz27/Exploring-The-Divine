@@ -9,6 +9,7 @@ etd_found_religious_cult_decision = {
 
 	is_shown = {
 		age >= 16
+		is_imprisoned = no
 		is_landed = yes
 		is_ruler = yes
 		

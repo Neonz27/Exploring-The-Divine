@@ -9,6 +9,7 @@ etd_study_kabbalah_decision = {
 
 	is_shown = {
 		age >= 16
+		is_imprisoned = no
 		
 		OR = {
 			religion = religion:judaism_religion
@@ -104,6 +105,7 @@ etd_practice_kabbalah_decision = {
 	
 	is_shown = {
 		age >= 16
+		is_imprisoned = no
 		
 		OR = {
 			religion = religion:judaism_religion
