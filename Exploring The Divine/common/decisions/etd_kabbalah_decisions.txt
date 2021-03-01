@@ -8,8 +8,8 @@ etd_study_kabbalah_decision = {
 	confirm_text = etd_study_kabbalah_decision_confirm 
 
 	is_shown = {
-		age >= 16
-		is_imprisoned = no
+		age >= etd_study_kabbalah_age_requirement
+		is_imprisoned = etd_study_kabbalah_can_be_imprisoned
 		
 		OR = {
 			religion = religion:judaism_religion
@@ -22,21 +22,25 @@ etd_study_kabbalah_decision = {
 	}
 
 	is_valid = {
-		learning >= 15
+		learning >= etd_study_kabbalah_learning_requirement
 	}
 
 	cost = {
-		piety = 500
+		piety = etd_study_kabbalah_piety_requirement
+	}
+	
+	cooldown = {
+		years = etd_study_kabbalah_cooldown_in_years
 	}
 
 	effect = {
 		trigger_event = etd_kabbalah_events.1
 	}
 	
-	ai_check_frequency = 12
+	ai_check_frequency = etd_study_kabbalah_ai_check_frequency
 
 	ai_potential = {
-		monthly_character_piety > 2
+		monthly_character_piety > etd_study_kabbalah_ai_monthly_piety_requirement
 	}
 
 	ai_will_do = {
@@ -104,8 +108,8 @@ etd_practice_kabbalah_decision = {
 	confirm_text = etd_practice_kabbalah_decision_confirm
 	
 	is_shown = {
-		age >= 16
-		is_imprisoned = no
+		age >= etd_practice_kabbalah_age_requirement
+		is_imprisoned = etd_practice_kabbalah_can_be_imprisoned
 		
 		OR = {
 			religion = religion:judaism_religion
@@ -114,28 +118,34 @@ etd_practice_kabbalah_decision = {
 		
 		has_trait = kabbalist
 		
-		NOT = { has_character_modifier = practiced_kabbalah_modifier }
+		NOT = {
+			has_character_modifier = practiced_kabbalah_modifier
+		}
 	}
 	
 	cost = {
-		piety = 250
+		piety = etd_practice_kabbalah_piety_requirement
+	}
+	
+	cooldown = {
+		years = etd_practice_kabbalah_cooldown_in_years
 	}
 	
 	effect = {
 		trigger_event = etd_kabbalah_events.2
 	}
 	
-	ai_check_frequency = 12
+	ai_check_frequency = etd_practice_kabbalah_ai_check_frequency
 	
 	ai_potential = {
-		always = yes
+		always = etd_practice_kabbalah_ai_potential
 	}
 
 	ai_will_do = {
 		base = 0
 		
 		modifier = {
-			add = 100
+			add = 50
 			has_trait = kabbalist
 		}
 	}

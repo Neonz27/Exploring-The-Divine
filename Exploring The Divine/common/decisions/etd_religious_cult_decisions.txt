@@ -8,10 +8,10 @@ etd_found_religious_cult_decision = {
 	confirm_text = etd_found_religious_cult_decision_confirm
 
 	is_shown = {
-		age >= 16
-		is_imprisoned = no
-		is_landed = yes
-		is_ruler = yes
+		age >= etd_found_religious_cult_age_requirement
+		is_imprisoned = etd_found_religious_cult_can_be_imprisoned
+		is_landed = etd_found_religious_cult_must_be_landed
+		is_ruler = etd_found_religious_cult_must_be_ruler
 		
 		NOT = {
 			has_trait = cult_leader
@@ -20,28 +20,28 @@ etd_found_religious_cult_decision = {
 
 	is_valid = {
 		OR = {
-			diplomacy >= 15
-			intrigue >= 15
-			learning >= 15
+			diplomacy >= etd_found_religious_cult_diplomacy_requirement
+			intrigue >= etd_found_religious_cult_intrigue_requirement
+			learning >= etd_found_religious_cult_learning_requirement
 		}
 	}
 
 	cost = {
-		piety = 1000
-		prestige = 250
+		piety = etd_found_religious_cult_piety_requirement
+		prestige = etd_found_religious_cult_prestige_requirement
 	}
 
 	effect = {
 		trigger_event = etd_religious_cult_events.1
 	}
 	
-	ai_check_frequency = 0
+	ai_check_frequency = etd_found_religious_cult_ai_check_frequency
 
 	ai_potential = {
-		always = no
+		always = etd_found_religious_cult_ai_potential
 	}
 
 	ai_will_do = {
-		base = 0
+		base = 5
 	}
 }

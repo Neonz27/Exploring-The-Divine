@@ -4,8 +4,8 @@
 	
 	minimum_age = 16
 	
-	clergy_opinion = -25
-	same_faith_opinion = 75
+	same_faith_opinion = 50
+	clergy_opinion = -50
 
 	desc = {
 		first_valid = {
@@ -28,9 +28,9 @@ cultist = {
 	
 	minimum_age = 16
 	
-	clergy_opinion = -25
-	same_faith_opinion = 75
 	opinion_of_different_faith_liege = 75
+	same_faith_opinion = 50
+	clergy_opinion = -25
 	
 	icon = {
 		first_valid = {

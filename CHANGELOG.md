@@ -1,4 +1,10 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.7**
+* > Changed some trait & modifier values to be less extreme.
+* > Separated script values from the implementation files.
+* > Added character flags to act as cooldowns for each event currently in the mod.
+* > Organized localization files by putting them in their own folders.
+
 **0.2.6**
 * > Made the icon for the Cultist trait dynamically change based on your character's religion.
 * > Made it impossible to activate all currently implemented decisions while imprisoned.

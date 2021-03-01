@@ -1,0 +1,16 @@
+﻿# Values For The Study Kabbalah Decision
+etd_study_kabbalah_age_requirement = 16
+etd_study_kabbalah_can_be_imprisoned = no
+etd_study_kabbalah_learning_requirement = 15
+etd_study_kabbalah_piety_requirement = 500
+etd_study_kabbalah_cooldown_in_years = 1
+etd_study_kabbalah_ai_check_frequency = 12
+etd_study_kabbalah_ai_monthly_piety_requirement = 2
+
+# Values For The Practice Kabbalah Decision
+etd_practice_kabbalah_age_requirement = 16
+etd_practice_kabbalah_can_be_imprisoned = no
+etd_practice_kabbalah_piety_requirement = 250
+etd_practice_kabbalah_cooldown_in_years = 1
+etd_practice_kabbalah_ai_check_frequency = 12
+etd_practice_kabbalah_ai_potential = yes
