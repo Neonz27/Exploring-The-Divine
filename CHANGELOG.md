@@ -1,4 +1,7 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.3**
+* > Added the event to found a religious cult.
+
 **0.2.2**
 * > Added the Cult Leader trait.
 

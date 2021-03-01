@@ -1,0 +1,29 @@
+﻿namespace = etd_religious_cult_events
+
+# Found Religious Cult Event
+etd_religious_cult_events.1 = {
+	type = character_event
+
+	title = etd_religious_cult_events.1.title
+	desc = etd_religious_cult_events.1.desc
+
+	theme = learning_theology_focus
+
+	lower_right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {
+		name = etd_religious_cult_events.1.a
+		
+		add_trait = cult_leader
+	}
+
+	option = {
+		name = etd_religious_cult_events.1.b
+		
+		add_piety = 1000
+		add_prestige = 250
+	}
+}
