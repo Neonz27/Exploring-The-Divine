@@ -1,6 +1,6 @@
 ﻿namespace = etd_religious_cult_events
 
-# Found Religious Cult Event
+# Found A Religious Cult Event
 etd_religious_cult_events.1 = {
 	type = character_event
 

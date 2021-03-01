@@ -1,0 +1,46 @@
+﻿# Decision To Trigger The Found A Religious Cult Event
+etd_found_religious_cult_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	title = etd_found_religious_cult_decision_title
+	selection_tooltip = etd_found_religious_cult_decision_tooltip
+	desc = etd_found_religious_cult_decision_desc
+	confirm_text = etd_found_religious_cult_decision_confirm
+
+	is_shown = {
+		age >= 16
+		is_landed = yes
+		is_ruler = yes
+		
+		NOT = {
+			has_trait = cult_leader
+		}
+	}
+
+	is_valid = {
+		OR = {
+			diplomacy >= 15
+			intrigue >= 15
+			learning >= 15
+		}
+	}
+
+	cost = {
+		piety = 1000
+		prestige = 250
+	}
+
+	effect = {
+		trigger_event = etd_religious_cult_events.1
+	}
+	
+	ai_check_frequency = 0
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

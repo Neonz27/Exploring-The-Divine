@@ -1,4 +1,7 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.4**
+* > Added the decision to trigger the found a religious cult event.
+
 **0.2.3**
 * > Added the event to found a religious cult.
 
