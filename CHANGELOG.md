@@ -1,4 +1,7 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.1**
+* > Renamed the change log file & added a read me file with installation instructions as well as the answers to commonly asked questions.
+
 **0.2.0**
 * > Added some more flavor text to the study Kabbalah event & practice Kabbalah decision.
 
