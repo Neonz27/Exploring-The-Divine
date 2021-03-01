@@ -1,0 +1,46 @@
+﻿cult_leader = {
+	index = 1371
+	shown_in_ruler_designer = no
+	
+	minimum_age = 16
+	
+	vassal_opinion = 25
+	clergy_opinion = -25
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+
+				desc = trait_cult_leader_desc
+			}
+
+			desc = trait_cult_leader_character_desc
+		}
+	}
+}
+
+cultist = {
+	index = 1372
+	shown_in_ruler_designer = no
+	
+	minimum_age = 16
+	
+	opinion_of_different_faith_liege = 75
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+
+				desc = trait_cultist_desc
+			}
+
+			desc = trait_cultist_character_desc
+		}
+	}
+}

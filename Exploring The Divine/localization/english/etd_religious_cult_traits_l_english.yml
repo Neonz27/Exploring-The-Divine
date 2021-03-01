@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_cult_leader:0 "Cult Leader"
+ trait_cult_leader_desc:0 "This character is the leader of a religious cult."
+ trait_cult_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the leader of a religious cult."
