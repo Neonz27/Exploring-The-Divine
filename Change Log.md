@@ -1,4 +1,7 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.1.9**
+* > Added the decision to trigger the practice Kabbalah event.
+
 **0.1.8**
 * > Added the event to practice Kabbalah & reversed the order of the change log.
 

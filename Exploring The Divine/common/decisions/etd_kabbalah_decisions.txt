@@ -1,4 +1,5 @@
-﻿etd_study_kabbalah_decision = {
+﻿# Decision To Trigger The Study Kabbalah Event
+etd_study_kabbalah_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	
 	title = etd_study_kabbalah_decision_title
@@ -88,6 +89,52 @@
 		modifier = {
 			add = 15
 			has_trait = humble
+		}
+	}
+}
+
+# Decision To Trigger The Practice Kabbalah Event
+etd_practice_kabbalah_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	title = etd_practice_kabbalah_decision_title
+	selection_tooltip = etd_practice_kabbalah_decision_tooltip
+	desc = etd_practice_kabbalah_decision_desc
+	confirm_text = etd_practice_kabbalah_decision_confirm
+	
+	is_shown = {
+		age >= 16
+		
+		OR = {
+			religion = religion:judaism_religion
+			religion = religion:christianity_religion
+		}
+		
+		has_trait = kabbalist
+		
+		NOT = { has_character_modifier = practiced_kabbalah_modifier }
+	}
+	
+	cost = {
+		piety = 250
+	}
+	
+	effect = {
+		trigger_event = etd_kabbalah_events.2
+	}
+	
+	ai_check_frequency = 12
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		
+		modifier = {
+			add = 100
+			has_trait = kabbalist
 		}
 	}
 }
