@@ -9,13 +9,13 @@
 	is_shown = {
 		age >= 16
 		
-		NOT = {
-			has_trait = kabbalist
-		}
-		
 		OR = {
 			religion = religion:judaism_religion
 			religion = religion:christianity_religion
+		}
+		
+		NOT = {
+			has_trait = kabbalist
 		}
 	}
 

@@ -1,5 +1,5 @@
 ﻿l_english:
- etd_kabbalah_events.1_title:0 "Studying Kabbalistic Mysticism"
- etd_kabbalah_events.1_desc:0 "As you spend countless hours poring over the hundreds of ancient texts sitting in your library, you begin piecing together concepts that you previously had no understanding of. The discoveries astonish you to the core, however, you are beginning to realize that for every question that you find an answer to, many more arise. You are left with two choices: Reject these newfound teachings or incorporate them into your beliefs."
- etd_kabbalah_events.1_accept:0 "Accept Kabbalah"
- etd_kabbalah_events.1_reject:0 "Reject Kabbalah"
+ etd_kabbalah_events.1.title:0 "Studying Kabbalistic Mysticism"
+ etd_kabbalah_events.1.desc:0 "As you spend countless hours poring over the hundreds of ancient texts sitting in your library, you begin piecing together concepts that you previously had no understanding of. The discoveries astonish you to the core, however, you are beginning to realize that for every question that you find an answer to, many more arise. You are left with two choices: Reject these newfound teachings or incorporate them into your beliefs."
+ etd_kabbalah_events.1.a:0 "Accept Kabbalah"
+ etd_kabbalah_events.1.b:0 "Reject Kabbalah"

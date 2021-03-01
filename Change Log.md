@@ -13,3 +13,6 @@
 
 **0.1.4**
 * > Made Kabbalah exclusive to the religions of Judaism & Christianity.
+
+**0.1.5**
+* > Did some minor changes to formatting.

@@ -4,8 +4,8 @@
 etd_kabbalah_events.1 = {
 	type = character_event
 
-	title = etd_kabbalah_events.1_title
-	desc = etd_kabbalah_events.1_desc
+	title = etd_kabbalah_events.1.title
+	desc = etd_kabbalah_events.1.desc
 
 	theme = learning_theology_focus
 
@@ -15,12 +15,14 @@ etd_kabbalah_events.1 = {
 	}
 
 	option = {
-		name = etd_kabbalah_events.1_accept
+		name = etd_kabbalah_events.1.a
+		
 		add_trait = kabbalist
 	}
 
 	option = {
-		name = etd_kabbalah_events.1_reject
+		name = etd_kabbalah_events.1.b
+		
 		add_piety = 500
 	}
 }
