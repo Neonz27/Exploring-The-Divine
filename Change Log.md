@@ -1,4 +1,7 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.0**
+* > Added some more flavor text to the study Kabbalah event & practice Kabbalah decision.
+
 **0.1.9**
 * > Added the decision to trigger the practice Kabbalah event.
 
