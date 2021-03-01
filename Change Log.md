@@ -16,3 +16,6 @@
 
 **0.1.5**
 * > Did some minor changes to formatting.
+
+**0.1.6**
+* > Removed the Kabbalist trait from the ruler designer.
