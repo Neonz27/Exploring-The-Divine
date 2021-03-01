@@ -19,3 +19,6 @@
 
 **0.1.6**
 * > Removed the Kabbalist trait from the ruler designer.
+
+**0.1.7**
+* > Added the practiced Kabbalah modifier.

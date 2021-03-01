@@ -1,0 +1,7 @@
+﻿practiced_kabbalah_modifier = {
+	icon = learning_positive
+	
+	monthly_learning_lifestyle_xp_gain_mult = 0.25
+	same_faith_opinion = 25
+	clergy_opinion = 25
+}
