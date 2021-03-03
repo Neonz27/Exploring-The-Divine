@@ -40,15 +40,15 @@ cultist = {
 						exists = this
 					}
 					
-					desc = cultist.dds
+					desc = trait_cultist_desc
 				}
+				
+				desc = trait_cultist_character_desc
 			}
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = akom_religion
-					}
+					religion = religion:akom_religion
 				}
 				
 				desc = cultist_akom.dds
@@ -56,9 +56,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = baltic_religion
-					}
+					religion = religion:baltic_religion
 				}
 				
 				desc = cultist_baltic.dds
@@ -66,9 +64,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = bon_religion
-					}
+					religion = religion:bon_religion
 				}
 				
 				desc = cultist_bon.dds
@@ -76,9 +72,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = buddhism_religion
-					}
+					religion = religion:buddhism_religion
 				}
 				
 				desc = cultist_buddhism.dds
@@ -86,9 +80,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = christianity_religion
-					}
+					religion = religion:christianity_religion
 				}
 				
 				desc = cultist_christianity.dds
@@ -96,9 +88,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = donyipoloism_religion
-					}
+					religion = religion:tani_religion
 				}
 				
 				desc = cultist_donyipoloism.dds
@@ -106,9 +96,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = dualism_religion
-					}
+					religion = religion:dualism_religion
 				}
 				
 				desc = cultist_dualism.dds
@@ -116,9 +104,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = finno_ugric_religion
-					}
+					religion = religion:finno_ugric_religion
 				}
 				
 				desc = cultist_finno_ugric.dds
@@ -126,9 +112,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = germanic_religion
-					}
+					religion = religion:germanic_religion
 				}
 				
 				desc = cultist_germanic.dds
@@ -136,9 +120,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = hellenism_religion
-					}
+					religion = religion:hellenism_religion
 				}
 				
 				desc = cultist_hellenism.dds
@@ -146,9 +128,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = hinduism_religion
-					}
+					religion = religion:hinduism_religion
 				}
 				
 				desc = cultist_hinduism.dds
@@ -156,9 +136,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = islam_religion
-					}
+					religion = religion:islam_religion
 				}
 				
 				desc = cultist_islam.dds
@@ -166,9 +144,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = jainism_religion
-					}
+					religion = religion:jainism_religion
 				}
 				
 				desc = cultist_jainism.dds
@@ -176,9 +152,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = judaism_religion
-					}
+					religion = religion:judaism_religion
 				}
 				
 				desc = cultist_judaism.dds
@@ -186,9 +160,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = kushitism_religion
-					}
+					religion = religion:kushitism_religion
 				}
 				
 				desc = cultist_kushitism.dds
@@ -196,9 +168,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = magyar_religion
-					}
+					religion = religion:magyar_religion
 				}
 				
 				desc = cultist_magyarism.dds
@@ -206,9 +176,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = mundhum_religion
-					}
+					religion = religion:mundhum_religion
 				}
 				
 				desc = cultist_mundhumism.dds
@@ -216,9 +184,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = paganism_religion
-					}
+					religion = religion:paganism_religion
 				}
 				
 				desc = cultist_paganism.dds
@@ -226,9 +192,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = qiangic_religion
-					}
+					religion = religion:qiangic_religion
 				}
 				
 				desc = cultist_qiangic.dds
@@ -236,9 +200,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = siberian_religion
-					}
+					religion = religion:siberian_religion
 				}
 				
 				desc = cultist_siberian.dds
@@ -246,9 +208,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = slavic_religion
-					}
+					religion = religion:slavic_religion
 				}
 				
 				desc = cultist_slavic.dds
@@ -256,9 +216,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = taoism_religion
-					}
+					religion = religion:taoism_religion
 				}
 				
 				desc = cultist_taoism.dds
@@ -266,9 +224,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = tengrism_religion
-					}
+					religion = religion:tengrism_religion
 				}
 				
 				desc = cultist_tengrism.dds
@@ -276,9 +232,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = waaqism_religion
-					}
+					religion = religion:waaqism_religion
 				}
 				
 				desc = cultist_waaqism.dds
@@ -286,9 +240,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = west_african_religion
-					}
+					religion = religion:west_african_religion
 				}
 				
 				desc = cultist_west_african.dds
@@ -296,9 +248,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = west_african_bori_religion
-					}
+					religion = religion:west_african_bori_religion
 				}
 				
 				desc = cultist_west_african_bori.dds
@@ -306,9 +256,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = west_african_orisha_religion
-					}
+					religion = religion:west_african_orisha_religion
 				}
 				
 				desc = cultist_west_african_orisha.dds
@@ -316,9 +264,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = west_african_roog_religion
-					}
+					religion = religion:west_african_roog_religion
 				}
 				
 				desc = cultist_west_african_roog.dds
@@ -326,9 +272,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = yazidi_religion
-					}
+					religion = religion:yazidi_religion
 				}
 				
 				desc = cultist_yazidism.dds
@@ -336,9 +280,7 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = zoroastrianism_religion
-					}
+					religion = religion:zoroastrianism_religion
 				}
 				
 				desc = cultist_zoroastrianism.dds
@@ -346,15 +288,11 @@ cultist = {
 			
 			triggered_desc = {
 				trigger = {
-					faith = {
-						religion_tag = zunism_religion
-					}
+					religion = religion:zunism_religion
 				}
 				
 				desc = cultist_zunism.dds
 			}
-			
-			desc = cultist.dds
 		}
 	}
 

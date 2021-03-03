@@ -15,28 +15,20 @@ etd_religious_cult_events.1 = {
 	}
 	
 	trigger = {
-		NOT = {
-			has_character_flag = has_founded_religious_cult
+		NOR = {
+			has_trait = cultist
+			has_trait = cult_leader
 		}
 	}
 
 	option = {
 		name = etd_religious_cult_events.1.a
 		
-		add_character_flag = {
-			flag = has_founded_religious_cult
-		}
-		
 		add_trait = cult_leader
 	}
 
 	option = {
 		name = etd_religious_cult_events.1.b
-		
-		add_character_flag = {
-			flag = has_founded_religious_cult
-			years = 5
-		}
 		
 		add_piety = 1000
 		add_prestige = 250

@@ -1,6 +1,5 @@
 ﻿# Values For The Found A Religious Cult Decision
 etd_found_religious_cult_age_requirement = 16
-etd_found_religious_cult_can_be_imprisoned = no
 etd_found_religious_cult_must_be_landed = yes
 etd_found_religious_cult_must_be_ruler = yes
 etd_found_religious_cult_diplomacy_requirement = 15
@@ -8,5 +7,6 @@ etd_found_religious_cult_intrigue_requirement = 15
 etd_found_religious_cult_learning_requirement = 15
 etd_found_religious_cult_piety_requirement = 1000
 etd_found_religious_cult_prestige_requirement = 250
-etd_found_religious_cult_ai_check_frequency = 0
-etd_found_religious_cult_ai_potential = yes
+etd_found_religious_cult_ai_check_interval = 0 # 60
+etd_found_religious_cult_ai_potential = no # yes
+etd_found_religious_cult_ai_will_do = 0 # 5

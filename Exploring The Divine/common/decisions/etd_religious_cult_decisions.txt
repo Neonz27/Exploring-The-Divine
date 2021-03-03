@@ -9,7 +9,7 @@ etd_found_religious_cult_decision = {
 
 	is_shown = {
 		age >= etd_found_religious_cult_age_requirement
-		is_imprisoned = etd_found_religious_cult_can_be_imprisoned
+		is_imprisoned = no
 		is_landed = etd_found_religious_cult_must_be_landed
 		is_ruler = etd_found_religious_cult_must_be_ruler
 		
@@ -35,13 +35,13 @@ etd_found_religious_cult_decision = {
 		trigger_event = etd_religious_cult_events.1
 	}
 	
-	ai_check_frequency = etd_found_religious_cult_ai_check_frequency
-
+	ai_check_interval = etd_found_religious_cult_ai_check_interval
+	
 	ai_potential = {
 		always = etd_found_religious_cult_ai_potential
 	}
 
 	ai_will_do = {
-		base = 5
+		base = etd_found_religious_cult_ai_will_do
 	}
 }

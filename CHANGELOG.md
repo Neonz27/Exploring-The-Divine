@@ -1,4 +1,11 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.8**
+* > Fixed a lot of bugs, prototyped something special for future versions, and successfully dealt with a corrupted copy of the game.
+* > Added custom descriptions for why certain decisions are not valid for your character.
+* > Added an info file with a list of all the traits in this mod along with their index values.
+* > Added a list of all known errors in my code.
+* > Made some minor changes to the wording of the localization for all decisions relating to Kabbalah.
+
 **0.2.7**
 * > Changed some trait & modifier values to be less extreme.
 * > Separated script values from the implementation files.

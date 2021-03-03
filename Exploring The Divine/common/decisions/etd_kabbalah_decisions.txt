@@ -9,7 +9,7 @@ etd_study_kabbalah_decision = {
 
 	is_shown = {
 		age >= etd_study_kabbalah_age_requirement
-		is_imprisoned = etd_study_kabbalah_can_be_imprisoned
+		is_imprisoned = no
 		
 		OR = {
 			religion = religion:judaism_religion
@@ -37,64 +37,15 @@ etd_study_kabbalah_decision = {
 		trigger_event = etd_kabbalah_events.1
 	}
 	
-	ai_check_frequency = etd_study_kabbalah_ai_check_frequency
+	ai_check_interval = etd_study_kabbalah_ai_check_interval
 
 	ai_potential = {
-		monthly_character_piety > etd_study_kabbalah_ai_monthly_piety_requirement
+		# monthly_character_piety > etd_study_kabbalah_ai_monthly_piety_requirement
+		always = no # Added this to make the game happy in the mean time.
 	}
 
 	ai_will_do = {
-		base = 0
-
-		modifier = {
-			add = 66
-			has_trait = mystic
-		}
-		
-		modifier = {
-			add = 33
-			has_trait = zealot
-		}
-
-		modifier = {
-			add = 33
-			has_trait = celibate
-		}
-
-		modifier = {
-			add = 15
-			has_trait = chaste
-		}
-
-		modifier = {
-			add = 15
-			has_trait = temperate
-		}
-
-		modifier = {
-			add = 15
-			has_trait = charitable
-		}
-
-		modifier = {
-			add = 15
-			has_trait = diligent
-		}
-
-		modifier = {
-			add = 15
-			has_trait = patient
-		}
-
-		modifier = {
-			add = 15
-			has_trait = kind
-		}
-
-		modifier = {
-			add = 15
-			has_trait = humble
-		}
+		base = etd_study_kabbalah_ai_will_do
 	}
 }
 
@@ -109,7 +60,7 @@ etd_practice_kabbalah_decision = {
 	
 	is_shown = {
 		age >= etd_practice_kabbalah_age_requirement
-		is_imprisoned = etd_practice_kabbalah_can_be_imprisoned
+		is_imprisoned = no
 		
 		OR = {
 			religion = religion:judaism_religion
@@ -117,9 +68,15 @@ etd_practice_kabbalah_decision = {
 		}
 		
 		has_trait = kabbalist
-		
-		NOT = {
-			has_character_modifier = practiced_kabbalah_modifier
+	}
+	
+	is_valid = {
+		custom_description = {
+			text = "etd_has_not_recently_practiced_kabbalah"
+			
+			NOT = {
+				has_character_modifier = practiced_kabbalah_modifier
+			}
 		}
 	}
 	
@@ -135,18 +92,13 @@ etd_practice_kabbalah_decision = {
 		trigger_event = etd_kabbalah_events.2
 	}
 	
-	ai_check_frequency = etd_practice_kabbalah_ai_check_frequency
+	ai_check_interval = etd_practice_kabbalah_ai_check_interval
 	
 	ai_potential = {
 		always = etd_practice_kabbalah_ai_potential
 	}
 
 	ai_will_do = {
-		base = 0
-		
-		modifier = {
-			add = 50
-			has_trait = kabbalist
-		}
+		base = etd_practice_kabbalah_ai_will_do
 	}
 }

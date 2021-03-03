@@ -16,28 +16,18 @@ etd_kabbalah_events.1 = {
 	
 	trigger = {
 		NOT = {
-			has_character_flag = has_studied_kabbalah
+			has_trait = kabbalist
 		}
 	}
 
 	option = {
 		name = etd_kabbalah_events.1.a
 		
-		add_character_flag = {
-			flag = has_studied_kabbalah
-			years = 1
-		}
-		
 		add_trait = kabbalist
 	}
 
 	option = {
 		name = etd_kabbalah_events.1.b
-		
-		add_character_flag = {
-			flag = has_studied_kabbalah
-			years = 1
-		}
 		
 		add_piety = 500
 	}
@@ -57,19 +47,10 @@ etd_kabbalah_events.2 = {
 		animation = personality_zealous
 	}
 	
-	trigger = {
-		NOT = {
-			has_character_flag = has_practiced_kabbalah
-		}
-	}
+	trigger = {}
 	
 	option = {
 		name = etd_kabbalah_events.2.a
-		
-		add_character_flag = {
-			flag = has_practiced_kabbalah
-			years = 1
-		}
 		
 		add_character_modifier = {
 			modifier = practiced_kabbalah_modifier
