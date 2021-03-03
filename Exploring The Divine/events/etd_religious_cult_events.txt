@@ -34,3 +34,211 @@ etd_religious_cult_events.1 = {
 		add_prestige = 250
 	}
 }
+
+# Accepted Induction Into Religious Cult Event
+etd_religious_cult_events.2 = {
+	type = character_event
+	
+	title = etd_religious_cult_events.2.title
+	desc = etd_religious_cult_events.2.desc
+	
+	theme = learning_theology_focus
+	
+	lower_left_portrait = {
+		character = scope:owner
+		animation = scheme
+	}
+	
+	lower_right_portrait = {
+		character = scope:target
+		animation = personality_zealous
+	}
+	
+	trigger = {
+		scope:target = {
+			age >= 16
+			
+			NOR = {
+				custom_description = {
+					text = "already_founded_cult"
+					object = scope:target
+					
+					has_trait = cult_leader
+				}
+				
+				custom_description = {
+					text = "already_cultist"
+					object = scope:target
+					
+					has_trait = cultist
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = etd_religious_cult_events.2.a
+		
+		scope:target = {
+			add_trait = cultist
+			
+			add_character_modifier = {
+				modifier = accepted_induction_into_religious_cult_modifier
+				years = 5
+			}
+		}
+	}
+}
+
+# Rejected Induction Into Religious Cult Event
+etd_religious_cult_events.3 = {
+	type = character_event
+	
+	title = etd_religious_cult_events.3.title
+	desc = etd_religious_cult_events.3.desc
+	
+	theme = learning_theology_focus
+	
+	lower_left_portrait = {
+		character = scope:owner
+		animation = scheme
+	}
+	
+	lower_right_portrait = {
+		character = scope:target
+		animation = personality_zealous
+	}
+	
+	trigger = {
+		scope:target = {
+			age >= 16
+			
+			NOR = {
+				custom_description = {
+					text = "already_cult_leader"
+					object = scope:target
+					
+					has_trait = cult_leader
+				}
+				
+				custom_description = {
+					text = "already_cultist"
+					object = scope:target
+					
+					has_trait = cultist
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = etd_religious_cult_events.3.a
+		
+		scope:target = {
+			# Target Gains Secret/Hook On Owner
+			
+			add_character_modifier = {
+				modifier = rejected_induction_into_religious_cult_modifier
+				years = 5
+			}
+		}
+	}
+}
+
+# Target Died Before Being Inducted Into Religious Cult Event
+etd_religious_cult_events.4 = {
+	type = character_event
+	
+	title = etd_religious_cult_events.4.title
+	desc = etd_religious_cult_events.4.desc
+	
+	theme = death
+	
+	lower_left_portrait = {
+		character = scope:owner
+		animation = scheme
+	}
+	
+	lower_right_portrait = {
+		character = scope:target
+		animation = sick
+	}
+	
+	trigger = {
+		scope:target = {
+			age >= 16
+			is_alive = no
+			
+			NOR = {
+				custom_description = {
+					text = "already_cult_leader"
+					object = scope:target
+					
+					has_trait = cult_leader
+				}
+				
+				custom_description = {
+					text = "already_cultist"
+					object = scope:target
+					
+					has_trait = cultist
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = etd_religious_cult_events.4.a
+	}
+}
+
+# Target Was Imprisoned By Someone Else Before Being Inducted Into Religious Cult Event
+etd_religious_cult_events.5 = {
+	type = character_event
+	
+	title = etd_religious_cult_events.5.title
+	desc = etd_religious_cult_events.5.desc
+	
+	theme = dungeon
+	
+	lower_left_portrait = {
+		character = scope:owner
+		animation = scheme
+	}
+	
+	lower_right_portrait = {
+		character = scope:target
+		animation = prison_dungeon
+	}
+	
+	trigger = {
+		scope:target = {
+			age >= 16
+			is_imprisoned = yes
+			
+			NOT = {
+				imprisoner = scope:owner
+			}
+			
+			NOR = {
+				custom_description = {
+					text = "already_cult_leader"
+					object = scope:owner
+					
+					has_trait = cult_leader
+				}
+				
+				custom_description = {
+					text = "already_cultist"
+					object = scope:owner
+					
+					has_trait = cultist
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = etd_religious_cult_events.5.a
+	}
+}

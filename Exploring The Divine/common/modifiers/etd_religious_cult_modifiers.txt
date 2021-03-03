@@ -1,0 +1,11 @@
+﻿accepted_induction_into_religious_cult_modifier = {
+	icon = learning_negative
+	
+	clergy_opinion = -25
+}
+
+rejected_induction_into_religious_cult_modifier = {
+	icon = learning_positive
+	
+	clergy_opinion = 25
+}

@@ -1,0 +1,6 @@
+﻿l_english:
+ accepted_induction_into_religious_cult_modifier:0 "Recently Accepted Religious Cult"
+ accepted_induction_into_religious_cult_modifier_desc:0 "This character has recently accepted indoctrination from a religious cult."
+
+ rejected_induction_into_religious_cult_modifier:0 "Recently Rejected Religious Cult"
+ rejected_induction_into_religious_cult_modifier_desc:0 "This character has recently rejected indoctrination from a religious cult."

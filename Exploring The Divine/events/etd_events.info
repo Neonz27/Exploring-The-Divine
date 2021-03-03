@@ -1,0 +1,10 @@
+﻿etd_kabbalah_events:
+	1 - Study Kabbalistic Mysticism
+	2 - Practice Kabbalistic Mysticism
+
+etd_religious_cult_events:
+	1 - Found A Religious Cult
+	2 - Accepted Induction Into Religious Cult
+	3 - Rejected Induction Into Religious Cult
+	4 - Target Died Before Being Inducted Into Religious Cult
+	5 - Target Was Imprisoned By Someone Else Before Being Inducted Into Religious Cult

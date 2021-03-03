@@ -3,3 +3,19 @@
  etd_religious_cult_events.1.desc:0 "As I took a stroll around my realm, I saw my people practicing a variety of faiths, many of which I considered heresy. We desperately need to employ a method by which to control the religious beliefs of the populace."
  etd_religious_cult_events.1.a:0 "A religious cult is what we need, and who better than I to be the leader?"
  etd_religious_cult_events.1.b:0 "What am I thinking? Such manipulation of the people is surely blasphemous!"
+ 
+ etd_religious_cult_events.2.title:0 "Disastrous Induction Attempt"
+ etd_religious_cult_events.2.desc:0 "After discussing the tenets & core doctrine of my faith with [TARGET_CHARACTER.GetShortUIName], they completely berated me for my beliefs, even going as far as to call me a heathen. And to think it was all going so well... Where did I go wrong?"
+ etd_religious_cult_events.2.a:0 "It seems as though [TARGET_CHARACTER.GetShortUIName] is not going to be easily swayed into converting to my faith."
+ 
+ etd_religious_cult_events.3.title:0 "Successful Induction Attempt"
+ etd_religious_cult_events.3.desc:0 "After discussing the tenets & core doctrine of my faith with [TARGET_CHARACTER.GetShortUIName], I believe they are beginning to come around to the idea of converting. While it is too soon to know for sure, I believe that [recipient.GetCharacter.GetFirstNameNoTooltip] will make an excellent addition to our faith."
+ etd_religious_cult_events.3.a:0 "[TARGET_CHARACTER.GetShortUIName] was easily swayed by my logic & has decided to accept my invitation to our faith."
+ 
+ etd_religious_cult_events.4.title:0 "Cult Inductee Died"
+ etd_religious_cult_events.4.desc:0 "[TARGET_CHARACTER.GetShortUIName] died before being inducted into my faith."
+ etd_religious_cult_events.4.a:0 "What a shame..."
+ 
+ etd_religious_cult_events.5.title:0 "Cult Inductee Was Imprisoned"
+ etd_religious_cult_events.5.desc:0 "[TARGET_CHARACTER.GetShortUIName] was imprisoned before being inducted into my faith."
+ etd_religious_cult_events.5.a:0 "They were imprisoned? Interesing..."

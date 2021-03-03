@@ -1,16 +1,16 @@
 ﻿# Values For The Study Kabbalah Decision
-etd_study_kabbalah_age_requirement = 16
-etd_study_kabbalah_learning_requirement = 15
-etd_study_kabbalah_piety_requirement = 500
-etd_study_kabbalah_cooldown_in_years = 1
-etd_study_kabbalah_ai_check_interval = 0 # 12
-# etd_study_kabbalah_ai_monthly_piety_requirement = 2
-etd_study_kabbalah_ai_will_do = 0 # 5
+study_kabbalah_age_requirement = 16
+study_kabbalah_learning_requirement = 15
+study_kabbalah_piety_requirement = 500
+study_kabbalah_cooldown_in_years = 1
+study_kabbalah_ai_check_interval = 0 # 12
+# study_kabbalah_ai_monthly_piety_requirement = 2
+study_kabbalah_ai_will_do = 0 # 5
 
 # Values For The Practice Kabbalah Decision
-etd_practice_kabbalah_age_requirement = 16
-etd_practice_kabbalah_piety_requirement = 250
-etd_practice_kabbalah_cooldown_in_years = 1
-etd_practice_kabbalah_ai_check_interval = 0 # 12
-etd_practice_kabbalah_ai_potential = no # yes
-etd_practice_kabbalah_ai_will_do = 0 # 50
+practice_kabbalah_age_requirement = 16
+practice_kabbalah_piety_requirement = 250
+practice_kabbalah_cooldown_in_years = 1
+practice_kabbalah_ai_check_interval = 0 # 12
+practice_kabbalah_ai_potential = no # yes
+practice_kabbalah_ai_will_do = 0 # 50

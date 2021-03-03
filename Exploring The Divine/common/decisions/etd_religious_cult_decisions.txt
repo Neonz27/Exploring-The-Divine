@@ -8,10 +8,10 @@ etd_found_religious_cult_decision = {
 	confirm_text = etd_found_religious_cult_decision_confirm
 
 	is_shown = {
-		age >= etd_found_religious_cult_age_requirement
+		age >= found_religious_cult_age_requirement
 		is_imprisoned = no
-		is_landed = etd_found_religious_cult_must_be_landed
-		is_ruler = etd_found_religious_cult_must_be_ruler
+		is_landed = found_religious_cult_must_be_landed
+		is_ruler = found_religious_cult_must_be_ruler
 		
 		NOT = {
 			has_trait = cult_leader
@@ -20,28 +20,28 @@ etd_found_religious_cult_decision = {
 
 	is_valid = {
 		OR = {
-			diplomacy >= etd_found_religious_cult_diplomacy_requirement
-			intrigue >= etd_found_religious_cult_intrigue_requirement
-			learning >= etd_found_religious_cult_learning_requirement
+			diplomacy >= found_religious_cult_diplomacy_requirement
+			intrigue >= found_religious_cult_intrigue_requirement
+			learning >= found_religious_cult_learning_requirement
 		}
 	}
 
 	cost = {
-		piety = etd_found_religious_cult_piety_requirement
-		prestige = etd_found_religious_cult_prestige_requirement
+		piety = found_religious_cult_piety_requirement
+		prestige = found_religious_cult_prestige_requirement
 	}
 
 	effect = {
 		trigger_event = etd_religious_cult_events.1
 	}
 	
-	ai_check_interval = etd_found_religious_cult_ai_check_interval
+	ai_check_interval = found_religious_cult_ai_check_interval
 	
 	ai_potential = {
-		always = etd_found_religious_cult_ai_potential
+		always = found_religious_cult_ai_potential
 	}
 
 	ai_will_do = {
-		base = etd_found_religious_cult_ai_will_do
+		base = found_religious_cult_ai_will_do
 	}
 }

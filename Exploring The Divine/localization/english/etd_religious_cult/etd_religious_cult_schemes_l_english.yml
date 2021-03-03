@@ -1,0 +1,8 @@
+﻿l_english:
+ etd_induct_into_religious_cult:0 "Induct Into Religious Cult Scheme"
+ etd_induct_into_religious_cult_action:0 "Induct"
+ etd_induct_into_religious_cult_desc:0 "I am going to attempt to induct [TARGET_CHARACTER.GetShortUIName] into my faith."
+ etd_induct_into_religious_cult_desc_general:0 "I am going to attempt to induct someone into my faith."
+ etd_induct_into_religious_cult_already_cultist:0 "[TARGET_CHARACTER.GetShortUIName] is already a cultist!"
+ etd_induct_into_religious_cult_success_desc:0 "[TARGET_CHARACTER.GetShortUIName] was successfully inducted into my faith & I was not exposed."
+ etd_induct_into_religious_cult_discovery_desc:0 "[TARGET_CHARACTER.GetShortUIName] was not inducted into my faith & I was exposed for being a member of a religious cult!"

@@ -8,7 +8,7 @@ etd_study_kabbalah_decision = {
 	confirm_text = etd_study_kabbalah_decision_confirm 
 
 	is_shown = {
-		age >= etd_study_kabbalah_age_requirement
+		age >= study_kabbalah_age_requirement
 		is_imprisoned = no
 		
 		OR = {
@@ -22,30 +22,30 @@ etd_study_kabbalah_decision = {
 	}
 
 	is_valid = {
-		learning >= etd_study_kabbalah_learning_requirement
+		learning >= study_kabbalah_learning_requirement
 	}
 
 	cost = {
-		piety = etd_study_kabbalah_piety_requirement
+		piety = study_kabbalah_piety_requirement
 	}
 	
 	cooldown = {
-		years = etd_study_kabbalah_cooldown_in_years
+		years = study_kabbalah_cooldown_in_years
 	}
 
 	effect = {
 		trigger_event = etd_kabbalah_events.1
 	}
 	
-	ai_check_interval = etd_study_kabbalah_ai_check_interval
+	ai_check_interval = study_kabbalah_ai_check_interval
 
 	ai_potential = {
-		# monthly_character_piety > etd_study_kabbalah_ai_monthly_piety_requirement
+		# monthly_character_piety > study_kabbalah_ai_monthly_piety_requirement
 		always = no # Added this to make the game happy in the mean time.
 	}
 
 	ai_will_do = {
-		base = etd_study_kabbalah_ai_will_do
+		base = study_kabbalah_ai_will_do
 	}
 }
 
@@ -59,7 +59,7 @@ etd_practice_kabbalah_decision = {
 	confirm_text = etd_practice_kabbalah_decision_confirm
 	
 	is_shown = {
-		age >= etd_practice_kabbalah_age_requirement
+		age >= practice_kabbalah_age_requirement
 		is_imprisoned = no
 		
 		OR = {
@@ -81,24 +81,24 @@ etd_practice_kabbalah_decision = {
 	}
 	
 	cost = {
-		piety = etd_practice_kabbalah_piety_requirement
+		piety = practice_kabbalah_piety_requirement
 	}
 	
 	cooldown = {
-		years = etd_practice_kabbalah_cooldown_in_years
+		years = practice_kabbalah_cooldown_in_years
 	}
 	
 	effect = {
 		trigger_event = etd_kabbalah_events.2
 	}
 	
-	ai_check_interval = etd_practice_kabbalah_ai_check_interval
+	ai_check_interval = practice_kabbalah_ai_check_interval
 	
 	ai_potential = {
-		always = etd_practice_kabbalah_ai_potential
+		always = practice_kabbalah_ai_potential
 	}
 
 	ai_will_do = {
-		base = etd_practice_kabbalah_ai_will_do
+		base = practice_kabbalah_ai_will_do
 	}
 }

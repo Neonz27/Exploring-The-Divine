@@ -1,4 +1,10 @@
 ﻿# Change Log For *Exploring The Divine* (**CK3 Mod**)
+**0.2.9**
+* > Added the scheme to induct someone into a religious cult.
+* > Added several events relating to induction into religious cults.
+* > Added modifiers for characters who have accepted or rejected induction into a religious cult.
+* > Shortened the names of some script values.
+
 **0.2.8**
 * > Fixed a lot of bugs, prototyped something special for future versions, and successfully dealt with a corrupted copy of the game.
 * > Added custom descriptions for why certain decisions are not valid for your character.
@@ -9,7 +15,6 @@
 **0.2.7**
 * > Changed some trait & modifier values to be less extreme.
 * > Separated script values from the implementation files.
-* > Added character flags to act as cooldowns for each event currently in the mod.
 * > Organized localization files by putting them in their own folders.
 
 **0.2.6**

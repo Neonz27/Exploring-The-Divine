@@ -1,6 +1,6 @@
 ﻿namespace = etd_kabbalah_events
 
-# Study Kabbalah Event
+# Study Kabbalistic Mysticism Event
 etd_kabbalah_events.1 = {
 	type = character_event
 
@@ -33,7 +33,7 @@ etd_kabbalah_events.1 = {
 	}
 }
 
-# Practice Kabbalah Event
+# Practice Kabbalistic Mysticism Event
 etd_kabbalah_events.2 = {
 	type = character_event
 	
