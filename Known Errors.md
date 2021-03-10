@@ -1,12 +1,4 @@
 ﻿# All Known Errors
-* **Error**: **Unexpected Token**: *minimum_success_chance*
-	* **In File**: *"common/schemes/etd_religious_cult_schemes.txt"*
-	* **Near Line**: *341*
-
-* **Error**: **Unexpected Token**: *maximum_success_chance*
-	* **In File**: *"common/schemes/etd_religious_cult_schemes.txt"*
-	* **Near Line**: *342*
-
 * **Error**: **Unknown Trigger Type**: *desc*
 	* **In File**: *"common/traits/etd_religious_cult_traits.txt"*
 	* **Near Line**: *43*

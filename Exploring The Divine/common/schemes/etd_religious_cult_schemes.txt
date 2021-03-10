@@ -27,7 +27,7 @@
 				exists = location
 				in_diplomatic_range = scope:owner
 			}
-			
+		
 			NOR = {
 				has_trait = cultist
 				has_trait = cult_leader
@@ -338,8 +338,8 @@
 		}
 	}
 	
-	minimum_success_chance = 0
-	maximum_success_chance = 100
+	minimum_success = 0
+	maximum_success = 100
 	minimum_secrecy = 0
 	maximum_secrecy = 100
 	minimum_progress_chance = 5
@@ -406,7 +406,7 @@
 				trigger_event = etd_religious_cult_events.2
 			}
 		}
-		elseif = {
+		else_if = {
 			limit = {
 				scope:target = {
 					is_imprisoned = no
